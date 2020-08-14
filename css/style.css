@@ -696,10 +696,6 @@ img{
 .intro__comments{
     width: 1110px;
     height: 158px;
-    /* margin-left: 8%;
-    margin-top: 24px;
-    margin-bottom: 67px; */
-    /* padding-bottom: 67px; */
     margin: 0 auto; 
     background: url(../img/comments.png) no-repeat center;
 }
@@ -720,7 +716,15 @@ img{
     position: relative;
     margin-bottom: 45px;
 }
-
+.intro__stat-pic:hover {
+    filter: brightness(98%);
+    transform: scale(1.1);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
 .intro__stat{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -732,7 +736,185 @@ img{
     -ms-grid-column-span: 1;
     grid-column: span 1;
 }
+.intro__get-start{
+    position:relative;
+    margin-top: 179px;
+    margin-bottom: 79px;
+    height: 274px;
+    width: 100%;
+    background: url(../img/digital_bg.png) no-repeat center;
+}
+.get-start__text{
+    width: 495px;
+    position: absolute;
+    margin-left: 10.8%;
+    margin-top: 100px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.get-start__phone {
+    width: 333px;
+    height: 274px;
+    position:absolute;
+    top:-24px;
+    left: 46%;
+}
+.get-start{
+    position:absolute;
+    top: 110px;
+    margin-left: 945px;
+    margin-bottom: 28px;
+    height: 69px;
+    width: 287px;
+    background-color: #CFE0FF;
+}
 /* Intro styles end */
+
+
+/* Autocopy styles start */
+.autocopy{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10,4%;
+}
+.autocopy__title{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 110%;
+    color: #010101;
+}
+.autocopy_naga{
+    color: #3179FF;
+    font-weight: 700;
+}
+.autocopy__steps{
+    width: 1110px;
+    height: 214px;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 57px 1fr 57px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.autocopy__step{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-column-span: 1;
+    grid-column: span 1;
+    background: white;
+    height: 581px;
+    margin-bottom: 52px;
+    border: 0.9px solid #ECF3FF;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px #F1F6FF;
+    border-radius: 9px;
+}
+.wrapper__get-started{
+    position: relative;
+    margin-top: 450px;
+    margin-bottom: 65.8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.autocopy__start{
+    margin: 0;
+    height: 69px;
+    width: 287px;
+    background-color: #CFE0FF;
+}
+.wrapper-step{
+    margin: 18px 20px;
+    background: #FFFFFF;
+}
+.autocopy__step-text{
+    position: relative;
+    padding-top: 37.8px;
+    padding-left: 8.7%;
+    padding-right: 8%;
+    margin-top: 18.2px;
+    height: 456px;
+    width: 100%;
+    background: #F8FAFF;
+    border: 0.9px solid #ECF3FF;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+.monitor-icon, .rocket-icon, .rate-icon{
+    position: absolute;
+    top: -11%;
+    left: 70%;
+}
+.autocopy__step-title{
+    font-weight: bold;
+    margin-bottom: 19px;
+    font-size: 22px;
+    line-height: 120%;
+    color: #000000;
+}
+.autocopy__step-sub{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+.step-pic{
+    position: absolute;
+    left: -0.5px;
+    top: 150px;
+    height: 400px;
+    width: 500px;
+}
+.step-pic:hover {
+    left: 20px;
+    transform: scale(1.3);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.autocopy-btn{
+    position: absolute;
+    height: 52px;
+    width: 213px;
+    margin-top: 65px;
+    padding: 15px 39px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    color: white;
+    background: #1B7DFF;
+    border: 0;
+}
+.autocopy-icon{
+    margin-right: 10px;
+}
+
+.autocopy-btn:hover, .autocopy-btn:active{
+    background: #0e66da;
+}
+
+.autocopy-separator{
+    margin-top: 2.5%;
+    margin-left: 40px;
+    border: 3px solid white;
+    width: 65%;
+    height: 1px;
+}
+/* Autocopy styles end */
 
 
 
