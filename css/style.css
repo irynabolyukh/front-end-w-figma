@@ -454,6 +454,12 @@ img{
     font-weight: 700;
 }
 
+.bold-blue{
+    color: #3179FF;
+    font-weight: 700;    
+}
+
+
 /* Header styles start */
 
 .header{
@@ -890,10 +896,10 @@ img{
 }
 
 .autocopy-separator{
-    margin-top: 2.5%;
+    margin-top: 3%;
     margin-left: 40px;
-    border: 3px solid white;
-    width: 65%;
+    border: 2px solid white;
+    width: 70%;
     height: 1px;
 }
 /* Autocopy styles end */
@@ -1082,6 +1088,46 @@ img{
     background-color: #CFE0FF;
 }
 /* Mobile platfrom styles end */
+
+
+/* Funding methods styles start */
+
+.wrapper-methods{
+    position: relative;
+    /* margin-top: 450px; */
+    margin-bottom: 65.8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fund-methods__title{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 110%;
+    color: #010101;
+}
+.separator{
+    margin-top: 2%;
+    margin-left: 40px;
+    border: 2px solid white;
+    width: 55%;
+    height: 1px;
+}
+.fund-methods__pic{
+    margin-bottom: 85px;
+}
+
+/* Funding methods styles end */
+.trading__title{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 110%;
+    color: #010101;
+    margin-right: 8%;
+}
+
+/* Trading styles start */
+
+/* Trading styles end */
 
 
 /* Benefits styles start */
