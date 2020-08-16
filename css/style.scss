@@ -1432,6 +1432,9 @@ img{
             justify-content: space-between;
     width: 100%;
 }
+.footer__menu {
+    width: 25%;
+}
 .footer__menu-link-pic{
     text-decoration: none;
     margin-right: 12.5px;
@@ -1711,7 +1714,7 @@ img{
     .footer__nav {
         width: 100%;
     }
-    .footerm__menu {
+    .footer__menu {
         width: 50%;
         margin-bottom: 24px;
     }
