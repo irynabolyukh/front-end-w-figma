@@ -509,7 +509,7 @@ img{
 .header__logo{
     height: 37px;
     width: 73px;
-    margin-right: 780px;
+    margin-right: 70%;
 }
 .header__logo-pic{
     width: 13.5px;
@@ -518,7 +518,7 @@ img{
     width: 52.7px;
 }
 .header__lang-pic{
-    padding: 9px 0 14px 0;
+    padding: 9px 0 9px 0;
 }
 .header__lang{
     height: 40px;
@@ -568,6 +568,33 @@ img{
     padding-left: 94px;
     padding-top: 101px;
 }
+@media screen and (max-width: 600px) {
+    .header{
+        max-width: 400px;
+    }
+    .intro{
+        font-size: 14px;
+    }
+    .intro__content {
+        padding-top: 10px;
+        padding-left: 20px;
+        max-width: 400px;
+    }
+    .header__logo{
+        margin-right: 0;
+        padding: 0;
+    }
+    .language-choice{
+        font-size: 12px;
+    }
+    .register-btn{
+        font-size: 12px;
+        padding: 3px 5px 3px 5px;
+    }
+    .intro__sigh-up{
+        margin-top: -20px;
+    }
+}
 .intro__title{
     font-weight: 300;
     font-size: 41px;
@@ -600,6 +627,8 @@ img{
 @media screen and (max-width: 600px) {
     .column {
       width: 100%;
+      margin-right: 1px;
+      margin-bottom: 10px;
     }
   }
 .row:after {
@@ -671,6 +700,7 @@ img{
 @media screen and (max-width: 600px) {
     .column1 {
       width: 100%;
+      margin-bottom: 1px;
     }
   }
 .intro__sign-up{
@@ -1692,7 +1722,5 @@ img{
         padding: 75px 30px;
     }
 }
-
-
 
 /* Media end */
