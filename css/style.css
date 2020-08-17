@@ -613,6 +613,9 @@ img {
   .intro__sigh-up {
     margin-top: -20px;
   }
+  .intro__stat {
+    display: none;
+  }
   .trading__card {
     -ms-grid-column-span: 4;
     grid-column: span 4;
@@ -681,9 +684,6 @@ img {
     -webkit-column-gap: 5px;
             column-gap: 5px;
     row-gap: 5px;
-  }
-  .get-start__phone {
-    display: none;
   }
   .intro__get-start {
     display: none;
@@ -911,6 +911,15 @@ img {
   position: absolute;
   top: -24px;
   left: 46%;
+}
+
+@media screen and (max-width: 900px) {
+  .get-start__phone {
+    display: none;
+  }
+  .get-start {
+    display: none;
+  }
 }
 
 .get-start {
