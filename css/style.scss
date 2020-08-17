@@ -572,50 +572,7 @@ img{
     padding-left: 94px;
     padding-top: 101px;
 }
-@media #{$information-phone} {
-    .main{
-        margin-left: 20px;
-        width: 600px;
-    }
-    .header{
-        margin-left: 20px;
-        max-width: 600px;
-        width: 100%;
-    }
-    .wrapper-reasons{
-        max-width: 600px;
-        width: 100%;
-    }
-    .intro{
-        font-size: 14px;
-    }
-    .intro__content {
-        padding-top: 10px;
-        padding-left: 20px;
-        max-width: 400px;
-    }
-    .header__logo{
-        margin-right: 0;
-        padding: 0;
-    }
-    .language-choice{
-        font-size: 12px;
-    }
-    .register-btn{
-        font-size: 12px;
-        padding: 3px 5px 3px 5px;
-    }
-    .intro__sigh-up{
-        margin-top: -20px;
-    }
-    .intro__stat{
-        display: none;
-    }
-    .trading__card{
-        -ms-grid-column-span: 4;
-        grid-column: span 4;
-    }
-}
+
 .intro__title{
     font-weight: 300;
     font-size: 41px;
@@ -645,68 +602,7 @@ img{
     padding-right: 19px;
     margin-bottom: 19px; 
 }
-@media #{$information-phone} {
-    .wrapper{
-        max-width: 600px;
-        width: 100%;
-    }
-    .intro{
-        padding-bottom: 5px;
-        min-height: 805px;
-    }
-    .column {
-      width: 100%;
-      margin-right: 1px;
-      margin-bottom: 10px;
-    }
-    .wrapper-intro{
-        max-width: 600px;
-        background: white;
-    }
-    .intro__comments{
-        display: none;
-    }
-    .intro__stats{
-        column-gap: 5px;
-        row-gap: 5px;
-    }
-    .intro__get-start{
-        display: none;
-        margin: 0;
-    }
-    .slider{ 
-        display: none;
-        margin-top: 0;
-        max-width: 600px;
-        width: 100%;
-    }
-    .slider__content{
-        width: 30px;
-        height: 20px;
-    }
-    .slider__docs-ico-1{
-        display: none;
-    }
-    .slider__docs-ico-2{
-        display: none;
-    }
-    .autocopy__step{
-        -ms-grid-column-span: 3;
-        grid-column: span 3;
-    }
-    .wrapper-reasons{
-        width: 300px;
-    }
-    .mobile-platform__content-text{
-        margin-left: 50px;
-        margin-top: 3225px;
-        width: 327px;
-    }
-    .wrapper-mobile-platform{
-        width: 600px;
-        height: 507px;
-    }
-}
+
 .row:after {
     content: "";
     display: table;
@@ -1597,6 +1493,111 @@ img{
 
 
 /* Media start */
+
+@media #{$information-phone} {
+    .main{
+        margin-left: 20px;
+        width: 600px;
+    }
+    .header{
+        margin-left: 20px;
+        max-width: 600px;
+        width: 100%;
+    }
+    .wrapper-reasons{
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .intro{
+        padding-bottom: 5px;
+        min-height: 805px;
+        font-size: 14px;
+    }
+    .intro__content {
+        padding-top: 10px;
+        padding-left: 20px;
+        max-width: 400px;
+    }
+    .header__logo{
+        margin-right: 0;
+        padding: 0;
+    }
+    .language-choice{
+        font-size: 12px;
+    }
+    .register-btn{
+        font-size: 12px;
+        padding: 3px 5px 3px 5px;
+    }
+    .intro__sigh-up{
+        margin-top: -20px;
+    }
+    .intro__stat{
+        display: none;
+    }
+    .trading__card{
+        -ms-grid-column-span: 4;
+        grid-column: span 4;
+    }
+    .wrapper{
+        max-width: 600px;
+        width: 100%;
+    }
+    .column {
+      width: 100%;
+      margin-right: 1px;
+      margin-bottom: 10px;
+    }
+    .wrapper-intro{
+        max-width: 600px;
+        background: white;
+    }
+    .intro__comments{
+        display: none;
+    }
+    .intro__stats{
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    .intro__get-start{
+        display: none;
+        margin: 0;
+    }
+    .slider{ 
+        display: none;
+        margin-top: 0;
+        max-width: 600px;
+        width: 100%;
+    }
+    .slider__content{
+        width: 30px;
+        height: 20px;
+    }
+    .slider__docs-ico-1{
+        display: none;
+    }
+    .slider__docs-ico-2{
+        display: none;
+    }
+    .autocopy__step{
+        -ms-grid-column-span: 3;
+        grid-column: span 3;
+    }
+    .wrapper-reasons{
+        width: 300px;
+    }
+    .mobile-platform__content-text{
+        margin-left: 50px;
+        margin-top: 3225px;
+        width: 327px;
+    }
+    .wrapper-mobile-platform{
+        width: 600px;
+        height: 507px;
+    }
+}
+
 
 @media screen and (max-width: 767px) {
     .header {
