@@ -295,8 +295,17 @@
         max-width: 270px;
         width: 100%;
   
+        
         @media screen and (max-width:990px)  {
           margin: 0 auto;
+        }
+
+        @media screen and (max-width:600px)  {
+          
+          button{
+            margin-top: 30px;
+            width: 150px;
+          }
         }
       }
     }
@@ -1074,5 +1083,78 @@
 
   &__stat{
     color: black;
+  }
+}
+
+
+.control{
+  margin-bottom: 90px;
+
+  &-wrapper{
+    background: url(../img/digital_bg.png) no-repeat;
+    display: flex;
+    height: 225px;
+    max-width: 1407px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    @media screen and (max-width: 600px) {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+  }
+
+  &__text{
+    flex-basis: 45%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 120%;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 10%;
+
+    span{
+      font-weight: 700;
+    }
+
+    @media screen and (max-width: 1200px) {
+      font-size: 26px;
+      flex-basis: 50%;
+    }
+
+    @media screen and (max-width: 600px) {
+      padding-top: 10%;
+      padding-left: 0;
+    }
+  }
+
+  &__phone{
+    flex-basis: 25%;
+    width: 333px;
+    height: 274px;
+    margin-top: -70px;
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &__button{
+    flex-basis: 30%;
+    padding-right: 10%;
+
+    @media screen and (max-width: 1100px) {
+      flex-basis: 50%;
+    }
+
+    @media screen and (max-width: 600px) {
+      padding-right: 0;
+    }
   }
 }
