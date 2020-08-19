@@ -1451,4 +1451,133 @@ body {
     padding-right: 0;
   }
 }
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header__logo {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+}
+
+.header__logo-pic {
+  width: 13.5px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.header__logo-name {
+  width: 52.7px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .header__logo {
+    -ms-flex-preferred-size: 65%;
+        flex-basis: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__logo {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+}
+
+.header__lang {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__lang-choice {
+  padding-right: 5px;
+  font-size: 18px;
+  text-transform: capitalize;
+  line-height: 22px;
+  color: black;
+  background-color: #F4F7FF;
+  border: none;
+  outline: none;
+}
+
+.header__lang-pic {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .header__lang {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__lang {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+}
+
+.header__register {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 10px;
+}
+
+.header__register-btn {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #3179FF;
+  border: none;
+  padding: 10px 30px;
+}
+
+.header__register-btn:hover {
+  background: #0e66da;
+}
+
+@media screen and (max-width: 600px) {
+  .header__register-btn {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header__register {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__register {
+    -ms-flex-preferred-size: 35%;
+        flex-basis: 35%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
