@@ -353,6 +353,13 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .mobile__text-wrapper button {
+    margin-top: 30px;
+    width: 150px;
+  }
+}
+
 .mobile__title {
   font-size: 32px;
   margin-bottom: 15px;
@@ -1340,5 +1347,108 @@ body {
 
 .footer__stat {
   color: black;
+}
+
+.control {
+  margin-bottom: 90px;
+}
+
+.control-wrapper {
+  background: url(../img/digital_bg.png) no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 225px;
+  max-width: 1407px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .control-wrapper {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.control__text {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 120%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  padding-left: 10%;
+}
+
+.control__text span {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+  .control__text {
+    font-size: 26px;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .control__text {
+    padding-top: 10%;
+    padding-left: 0;
+  }
+}
+
+.control__phone {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  width: 333px;
+  height: 274px;
+  margin-top: -70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .control__phone {
+    display: none;
+  }
+}
+
+.control__button {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  padding-right: 10%;
+}
+
+@media screen and (max-width: 1100px) {
+  .control__button {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .control__button {
+    padding-right: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
