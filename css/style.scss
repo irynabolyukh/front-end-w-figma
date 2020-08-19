@@ -1249,3 +1249,55 @@
     
   }
 }
+
+
+.intro{
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    // flex-basis: 50%;
+  }
+
+  &-wrapper{
+    background: url(../img/intro_bg.jpg) no-repeat;
+    height: 631px;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 96px;
+    padding-bottom: 50px;
+  }
+
+  &__content{
+    flex-basis: 60%;
+  }
+
+  &__title{
+    font-weight: 300;
+    font-size: 41px;
+    line-height: 110%;
+    color: #010101;
+    span{
+      font-weight: 700;
+      color: #3179FF;
+    }
+  }
+
+  &__desc{
+    max-width: 445px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    align-items: center;
+    color: #010101;
+    span{
+      font-weight: 700;
+    }
+  }
+
+}
