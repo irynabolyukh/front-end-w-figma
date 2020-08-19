@@ -769,3 +769,59 @@
       }
     }
   }
+
+
+
+  .funding {
+    padding-bottom: 67px;
+    @media screen and (max-width:1200px) {
+      text-align: center;
+    }
+  
+    &-wrapper {
+        padding: 10px 0px;
+      }
+
+    &__image{
+      border-radius: 9px;
+    }
+
+    &__separator{
+        flex-basis: 55%;
+        height: 3px;
+        background-color: #FFFFFF;
+
+        @media screen and (max-width:990px) {
+            display: none;
+          }
+    }
+
+    &__title {
+      padding: 30px 0;
+      font-weight: 300;
+      font-size: 36px;
+      text-align: left;
+      line-height: 110%;
+      color: #17191C;
+      margin-bottom: 0;
+      flex-basis: 45%;
+  
+      &-wrapper {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      & span {
+        font-weight: 700;
+        color: #3179FF;
+        white-space: nowrap;
+      }
+      @media screen and (max-width:990px) {
+        text-align: center;
+        flex-basis: 100%;
+      }
+    } 
+  
+  }
