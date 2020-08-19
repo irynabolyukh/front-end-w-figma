@@ -99,6 +99,7 @@
     &__title {
       padding: 56px 15px;
       font-weight: 300;
+      font-size: 36px;
       text-align: center;
       letter-spacing: -0.01em;
       margin-bottom: 0;
@@ -137,7 +138,10 @@
       margin: 0 auto;
       min-width: 287px!important;
       margin-bottom: 40px;
-  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
       @media screen and (max-width:600px) {
         width:100%!important;
         min-width: 120px!important;
@@ -187,7 +191,7 @@
           }
         }
         @media screen and (max-width:600px) {
-          @include flex-basis(100%);
+          flex-basis: 100%;
         }
       }
   
