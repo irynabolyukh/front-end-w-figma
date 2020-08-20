@@ -81,6 +81,11 @@
     &:hover{
         background-color: #2b63cc;
     }
+
+    @media screen and (max-width:610px) {
+      width: 180px;
+      height: 50px;
+    }
 }
 
 .reasons {
@@ -1259,20 +1264,52 @@
   }
 
   &__item {
-    // flex-basis: 50%;
+    width: 230px;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #F8FAFF;
+    margin-right: 19px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 19px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &-pic{
+      margin-right: 10px;
+    }
+
+    @media screen and (max-width:900px) {
+      margin-bottom: 5px;
+    }
   }
 
   &-wrapper{
     background: url(../img/intro_bg.jpg) no-repeat;
-    height: 631px;
+    // height: 631px;
     display: flex;
     padding-top: 100px;
     padding-left: 96px;
     padding-bottom: 50px;
+
+    @media screen and (max-width:900px) {
+      padding-top: 40px;
+      padding-left: 30px;
+    }
   }
 
   &__content{
-    flex-basis: 60%;
+    flex-basis: 70%;
+    @media screen and (max-width:600px) {
+      flex-basis: 100%;
+    }
   }
 
   &__title{
@@ -1284,6 +1321,10 @@
       font-weight: 700;
       color: #3179FF;
     }
+    @media screen and (max-width:650px) {
+      font-size: 36px;
+    }
+
   }
 
   &__desc{
@@ -1295,8 +1336,88 @@
     line-height: 150%;
     align-items: center;
     color: #010101;
+    margin-bottom: 10px;
+    padding-top: 10px;
     span{
       font-weight: 700;
+    }
+    @media screen and (max-width:600px) {
+      font-size: 14px;
+    }
+  }
+
+  &__button{
+    padding-top: 15px;
+    margin-bottom: 28px;
+
+    @media screen and (max-width:900px) {
+      padding-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__sign{
+    display: flex;
+
+    &-up{
+      margin-bottom: 18px;
+      @media screen and (max-width:600px) {
+        font-size: 12px;
+      }
+    }
+     
+    &-ico{
+      padding-left: 15px;
+      align-items: center;
+    }
+
+    button{
+      width: 146px;
+      height: 40px;
+      border-radius: 2px;
+
+      p{
+        margin: 0;
+        padding-left: 15px;
+        align-items: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+      @media screen and (max-width:600px) {
+        width: 120px;
+      }
+    }
+
+    &-google{
+      background: #F8FAFF;
+      border: 2px solid #F4F7FF;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-right: 13px;
+
+      p{
+        color: #010101;
+      }
+    }
+
+    &-facebook{
+      background: #2553B4;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+          
+      p{
+        color: white;
+      }
     }
   }
 
