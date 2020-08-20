@@ -1897,6 +1897,20 @@ body {
   width: 70%;
 }
 
+.slideshow__slide-phone-3 {
+  position: absolute;
+  left: -10%;
+  margin-top: -54%;
+  z-index: 3;
+  width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+  .slideshow__slide-phone-3 {
+    z-index: 1;
+  }
+}
+
 .slideshow__slide-content-wrapper {
   z-index: 2;
   margin: 0 auto;
@@ -1917,6 +1931,31 @@ body {
 @media screen and (max-width: 600px) {
   .slideshow__slide-content-wrapper {
     padding-left: 35px;
+    margin-bottom: 0;
+  }
+}
+
+.slideshow__slide-content-wrapper-3 {
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: -90px;
+  position: relative;
+  width: 90%;
+  height: 478px;
+  background: #FFFFFF;
+  border: 0.9px solid #ECF3FF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 9px;
+  padding-left: 55px;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .slideshow__slide-content-wrapper-3 {
+    padding-top: 20px;
+    padding-left: 20px;
     margin-bottom: 0;
   }
 }
@@ -1942,26 +1981,72 @@ body {
   }
 }
 
-.slideshow__slide-content-text {
-  padding-right: 95px;
-  width: 80%;
-  max-width: 496px;
+.slideshow__slide-content-title-3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  color: #010101;
+  margin-bottom: 20px;
+}
+
+.slideshow__slide-content-title-3 span {
+  font-weight: 700;
+  color: #3179FF;
+}
+
+@media screen and (max-width: 600px) {
+  .slideshow__slide-content-title-3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+}
+
+.slideshow__slide-content-text-1 {
   font-family: 'Roboto';
   font-weight: 300;
   font-size: 18px;
   line-height: 150%;
   color: #010101;
+  padding-right: 95px;
+  width: 80%;
+  max-width: 496px;
   margin-bottom: 80px;
 }
 
-.slideshow__slide-content-text span {
+.slideshow__slide-content-text-1 span {
   font-weight: 700;
 }
 
 @media screen and (max-width: 600px) {
-  .slideshow__slide-content-text {
+  .slideshow__slide-content-text-1 {
     font-size: 16px;
     margin-bottom: 20px;
+  }
+}
+
+.slideshow__slide-content-text-3 {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #010101;
+  padding-right: 95px;
+  width: 80%;
+  max-width: 526px;
+  margin-bottom: 45px;
+}
+
+.slideshow__slide-content-text-3 span {
+  color: #3179FF;
+}
+
+@media screen and (max-width: 900px) {
+  .slideshow__slide-content-text-3 {
+    font-size: 16px;
+    margin-bottom: 10px;
   }
 }
 
