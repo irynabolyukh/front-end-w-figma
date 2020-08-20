@@ -85,6 +85,7 @@ body {
   .button {
     width: 180px;
     height: 50px;
+    font-size: 16px;
   }
 }
 
@@ -970,7 +971,7 @@ body {
   padding-bottom: 67px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .funding {
     display: none;
   }
@@ -1804,6 +1805,10 @@ body {
   color: white;
 }
 
+.slideshow {
+  margin-bottom: 50px;
+}
+
 .slideshow__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1889,6 +1894,12 @@ body {
   z-index: 1;
 }
 
+.slideshow__slide-pic-2 {
+  width: 100%;
+  max-height: 440px;
+  margin-bottom: 40px;
+}
+
 .slideshow__slide-phone {
   position: absolute;
   left: -10%;
@@ -1930,7 +1941,31 @@ body {
 
 @media screen and (max-width: 600px) {
   .slideshow__slide-content-wrapper {
-    padding-left: 35px;
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+}
+
+.slideshow__slide-content-wrapper-2 {
+  z-index: 2;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  height: 384px;
+  background: #FFFFFF;
+  border: 0.9px solid #ECF3FF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 9px;
+  padding-left: 55px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .slideshow__slide-content-wrapper-2 {
+    padding-top: 10px;
+    padding-left: 15px;
     margin-bottom: 0;
   }
 }
@@ -1982,7 +2017,6 @@ body {
 }
 
 .slideshow__slide-content-title-3 {
-  font-family: Lato;
   font-style: normal;
   font-weight: 300;
   font-size: 36px;
@@ -1990,6 +2024,7 @@ body {
   letter-spacing: -0.01em;
   color: #010101;
   margin-bottom: 20px;
+  padding-right: 5px;
 }
 
 .slideshow__slide-content-title-3 span {
@@ -2024,6 +2059,33 @@ body {
   .slideshow__slide-content-text-1 {
     font-size: 16px;
     margin-bottom: 20px;
+  }
+}
+
+.slideshow__slide-content-text-2 {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #010101;
+  width: 80%;
+  max-width: 568px;
+  margin-bottom: 20px;
+}
+
+.slideshow__slide-content-text-2 span {
+  font-weight: 700;
+}
+
+.slideshow__slide-content-text-2 span:nth-of-type(3) {
+  font-weight: 500;
+  color: #3179FF;
+}
+
+@media screen and (max-width: 600px) {
+  .slideshow__slide-content-text-2 {
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 }
 
