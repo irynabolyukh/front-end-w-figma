@@ -1293,7 +1293,6 @@
 
   &-wrapper{
     background: url(../img/intro_bg.jpg) no-repeat;
-    // height: 631px;
     display: flex;
     padding-top: 100px;
     padding-left: 96px;
@@ -1421,4 +1420,43 @@
     }
   }
 
+}
+
+
+.slideshow {
+  &__content{
+    display: flex;
+  }
+
+  &__slider{
+    width: 730px;
+    height: 876px;
+    background: #FFFFFF;
+    border: 0.9px solid #ECF3FF;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px #F1F6FF;
+    border-radius: 9px;
+    flex-basis: 80%;
+
+  }
+
+  &__docs-1{
+    flex-basis: 5%;
+    margin-right: 56px;
+    margin-top: 10%;
+    align-content: flex-start;
+  }
+
+  &__docs-2{
+    flex-basis: 5%;
+    margin-left: 56px;
+    margin-top: 60%;
+    justify-content: flex-end;
+  }
+}
+
+.left{
+  padding-top: 3%;
+  padding-left: 40%;
+  margin-right: 5%;
 }

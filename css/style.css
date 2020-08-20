@@ -1803,4 +1803,49 @@ body {
 .intro__sign-facebook p {
   color: white;
 }
+
+.slideshow__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slideshow__slider {
+  width: 730px;
+  height: 876px;
+  background: #FFFFFF;
+  border: 0.9px solid #ECF3FF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 8px #F1F6FF;
+          box-shadow: 0px 2px 8px #F1F6FF;
+  border-radius: 9px;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+.slideshow__docs-1 {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  margin-right: 56px;
+  margin-top: 10%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.slideshow__docs-2 {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  margin-left: 56px;
+  margin-top: 60%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.left {
+  padding-top: 3%;
+  padding-left: 40%;
+  margin-right: 5%;
+}
 /*# sourceMappingURL=style.css.map */
