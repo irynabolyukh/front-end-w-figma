@@ -1429,7 +1429,7 @@
   }
 
   &__slider{
-    width: 730px;
+    width: 70%;
     height: 876px;
     background: #FFFFFF;
     border: 0.9px solid #ECF3FF;
@@ -1438,6 +1438,11 @@
     border-radius: 9px;
     flex-basis: 80%;
 
+    @media screen and (max-width: 1000px) {
+      flex-basis: 100%;
+      width: 100%;
+    }
+
   }
 
   &__docs-1{
@@ -1445,6 +1450,10 @@
     margin-right: 56px;
     margin-top: 10%;
     align-content: flex-start;
+
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
   }
 
   &__docs-2{
@@ -1452,6 +1461,10 @@
     margin-left: 56px;
     margin-top: 60%;
     justify-content: flex-end;
+
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
   }
 }
 
@@ -1459,4 +1472,7 @@
   padding-top: 3%;
   padding-left: 40%;
   margin-right: 5%;
+  @media screen and (max-width: 600px) {
+    padding-left: 30%;
+  }
 }
